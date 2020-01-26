@@ -5,3 +5,6 @@ class Vehicle():
         self.powered_by = powered_by
         self.make = make
         self.model = model
+
+    def drive(self):
+        print("Vrooooom!")
