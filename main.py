@@ -50,7 +50,12 @@ starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' 
 
 # turtle_power.drive()
 
-for key, value in mustang_sally.__dict__.items():
+# for key, value in mustang_sally.__dict__.items():
+#     print(f'{key}: {value}\n')
+
+# mustang_sally.drive()
+
+for key, value in starman.__dict__.items():
     print(f'{key}: {value}\n')
 
-mustang_sally.drive()
+starman.drive()
