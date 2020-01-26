@@ -7,3 +7,9 @@ class Baby(Vehicle):
 
     def drive(self):
         print(f"The {self.main_color} {self.model} cruises past. Puuuuuuurrrr...")
+
+    def turn(self, direction):
+        print(f"The {self.model} turned the {direction} corner.")
+
+    def stop(self):
+        print(f"The {self.main_color} {self.model} screeched to a halt and Sam and Dean clambered out, weapons raised.")
