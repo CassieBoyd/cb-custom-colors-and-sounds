@@ -20,7 +20,7 @@ X- Create a drive() method in the Vehicle class.
 
 deans_car = Baby("black", 6, "gasoline", "Chevy", "Impala", "Weapons depot in trunk.")
 
-wayne_tech = Batmobile("black", 2, "gasoline", "Chevy", "Impala", "All of them.")
+wayne_tech = Batmobile("black", 2, "gasoline", "Chevy", "Batmobile", "All of them.")
 
 who_you_gonna_call = Ecto1("white", 4, "gasoline", "Futura Duplex", "Cadillac", "Gunner seat, ya'll!")
 
@@ -30,7 +30,12 @@ mustang_sally = Mustang("cherry red", 5, "gasoline", "Ford", "Mustang", 1965)
 
 starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' space!")
 
-for key, value in deans_car.__dict__.items():
+# for key, value in deans_car.__dict__.items():
+#     print(f'{key}: {value}\n')
+
+# deans_car.drive()
+
+for key, value in wayne_tech.__dict__.items():
     print(f'{key}: {value}\n')
 
-deans_car.drive()
+wayne_tech.drive()

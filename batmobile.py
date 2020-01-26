@@ -6,4 +6,4 @@ class Batmobile(Vehicle):
         self.special_feature = special_feature
 
     def drive(self):
-        print("Vvvvvvvvrrrrrrrrrr!")
+        print(f"The {self.main_color} {self.model} zooms down the alley. Vvvvvvvvrrrrrrrrrr!")
