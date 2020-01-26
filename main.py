@@ -40,7 +40,12 @@ starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' 
 
 # wayne_tech.drive()
 
-for key, value in who_you_gonna_call.__dict__.items():
+# for key, value in who_you_gonna_call.__dict__.items():
+#     print(f'{key}: {value}\n')
+
+# who_you_gonna_call.drive()
+
+for key, value in turtle_power.__dict__.items():
     print(f'{key}: {value}\n')
 
-who_you_gonna_call.drive()
+turtle_power.drive()

@@ -6,4 +6,4 @@ class Party_Wagon(Vehicle):
         self.special_feature = special_feature
 
     def drive(self):
-        print("Cowabunga!")
+        print(f"The {self.main_color} {self.model} speeds out of the sewers. Cowabunga!")
