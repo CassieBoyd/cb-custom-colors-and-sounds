@@ -8,3 +8,9 @@ class Vehicle():
 
     def drive(self):
         print("Vrooooom!")
+
+    def turn(self, direction):
+        print(f"The {self.model} turned {direction}.")
+
+    def stop(self):
+        print(f"The {self.model} stopped.")

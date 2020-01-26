@@ -12,7 +12,7 @@ X- Move all common properties in your vehicles to a new Vehicle class.
 X- Create an instance of each vehicle.
 X- Define a different value for each vehicle's properties.
 X- Create a drive() method in the Vehicle class.
-- Override the drive() method in all the other vehicle classes. Include the vehicle's color in the message (i.e. "The blue Ram drives past. RRrrrrrummbbble!").
+X- Override the drive() method in all the other vehicle classes. Include the vehicle's color in the message (i.e. "The blue Ram drives past. RRrrrrrummbbble!").
 - Create a turn(self, direction) method, and a stop(self) method on Vehicle. Define a basic implementation of each.
 - Override all three of those methods on some of the vehicles. For example, the stop() method for a plane would be to output the message "The white Cessna rolls to a stop after rolling a mile down the runway."
 - Make your vehicle instances perform all three behaviors.
@@ -30,10 +30,12 @@ mustang_sally = Mustang("cherry red", 5, "gasoline", "Ford", "Mustang", 1965)
 
 starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' space!")
 
-# for key, value in deans_car.__dict__.items():
-#     print(f'{key}: {value}\n')
+for key, value in deans_car.__dict__.items():
+    print(f'{key}: {value}\n')
 
-# deans_car.drive()
+deans_car.drive()
+deans_car.turn("left")
+deans_car.stop()
 
 # for key, value in wayne_tech.__dict__.items():
 #     print(f'{key}: {value}\n')
@@ -55,7 +57,7 @@ starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' 
 
 # mustang_sally.drive()
 
-for key, value in starman.__dict__.items():
-    print(f'{key}: {value}\n')
+# for key, value in starman.__dict__.items():
+#     print(f'{key}: {value}\n')
 
-starman.drive()
+# starman.drive()
