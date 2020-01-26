@@ -22,7 +22,7 @@ deans_car = Baby("black", 6, "gasoline", "Chevy", "Impala", "Weapons depot in tr
 
 wayne_tech = Batmobile("black", 2, "gasoline", "Chevy", "Batmobile", "All of them.")
 
-who_you_gonna_call = Ecto1("white", 4, "gasoline", "Futura Duplex", "Cadillac", "Gunner seat, ya'll!")
+who_you_gonna_call = Ecto1("white", 4, "gasoline", "Futura Duplex", "Cadillac", "Gunner seat, y'all!")
 
 turtle_power = Party_Wagon("yellow", 8, "gasoline", "Volkswagen", "Bus", "Pizza launcher.")
 
@@ -30,34 +30,44 @@ mustang_sally = Mustang("cherry red", 5, "gasoline", "Ford", "Mustang", 1965)
 
 starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' space!")
 
-for key, value in deans_car.__dict__.items():
-    print(f'{key}: {value}\n')
+# for key, value in deans_car.__dict__.items():
+#     print(f'{key}: {value}\n')
 
-deans_car.drive()
-deans_car.turn("left")
-deans_car.stop()
+# deans_car.drive()
+# deans_car.turn("left")
+# deans_car.stop()
 
 # for key, value in wayne_tech.__dict__.items():
 #     print(f'{key}: {value}\n')
 
 # wayne_tech.drive()
+# wayne_tech.turn("right")
+# wayne_tech.stop()
 
 # for key, value in who_you_gonna_call.__dict__.items():
 #     print(f'{key}: {value}\n')
 
 # who_you_gonna_call.drive()
+# who_you_gonna_call.turn("left")
+# who_you_gonna_call.stop()
 
 # for key, value in turtle_power.__dict__.items():
 #     print(f'{key}: {value}\n')
 
 # turtle_power.drive()
+# turtle_power.turn("left")
+# turtle_power.stop()
 
-# for key, value in mustang_sally.__dict__.items():
-#     print(f'{key}: {value}\n')
+for key, value in mustang_sally.__dict__.items():
+    print(f'{key}: {value}\n')
 
-# mustang_sally.drive()
+mustang_sally.drive()
+mustang_sally.turn("right")
+mustang_sally.stop()
 
 # for key, value in starman.__dict__.items():
 #     print(f'{key}: {value}\n')
 
 # starman.drive()
+# starman.turn("right")
+# starman.stop()
