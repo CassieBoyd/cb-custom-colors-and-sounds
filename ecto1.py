@@ -6,4 +6,4 @@ class Ecto1(Vehicle):
         self.special_feature = special_feature
 
     def drive(self):
-        print("EEeeEooooowEEeeEooooow!")
+        print(f"The {self.main_color} {self.model} shrieks through the city. EEeeEooooowEEeeEooooow!")
