@@ -5,5 +5,5 @@ class Tesla(Vehicle):
         super().__init__(main_color, max_occupancy, powered_by, make, model)
         self.special_feature = special_feature
 
-    def drive(self):
-        print("Ssssshhhhhh!")
+    def drive(self, main_color, model):
+        print(f"The {main_color} {model} zips past. Ssssshhhhhh!")

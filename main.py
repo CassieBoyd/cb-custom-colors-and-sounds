@@ -29,3 +29,8 @@ turtle_power = Party_Wagon("yellow", 8, "gasoline", "Volkswagen", "Bus", "Pizza 
 mustang_sally = Mustang("cherry red", 5, "gasoline", "Ford", "Mustang", 1965)
 
 starman = Tesla("red", 5, "electricity", "Tesla", "Roadster", "It's in friggin' space!")
+
+for key, value in deans_car.__dict__.items():
+    print(f'{key}: {value}\n')
+
+deans_car.drive()

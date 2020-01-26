@@ -6,4 +6,4 @@ class Baby(Vehicle):
         self.special_feature = special_feature
 
     def drive(self):
-        print("Puuuuuuurrrr")
+        print(f"The {self.main_color} {self.model} cruises past. Puuuuuuurrrr...")
