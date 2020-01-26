@@ -6,4 +6,4 @@ class Mustang(Vehicle):
         self.year = year
 
     def drive(self):
-        print("RrrRrruuummmblle!")
+        print(f"The {self.main_color} {self.year} {self.model} pulls into my driveway. RrrRrruuummmblle!")
